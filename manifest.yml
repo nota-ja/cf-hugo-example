@@ -1,0 +1,8 @@
+---
+applications:
+  - name: hugo-example
+    domain: 10.244.0.34.xip.io
+    buildpack: "https://github.com/nota-ja/heroku-buildpack-hugo.git#cf-100-day-challenge-088"
+    env:
+      HUGO_BASE_URL: http://hugo-example.10.244.0.34.xip.io
+      HUGO_THEME: material-design
